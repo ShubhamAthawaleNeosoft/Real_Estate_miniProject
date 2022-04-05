@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+section {
+    margin: 8% 0;
+}
+.br-radius {
+    border-radius: 30px;
+}
+.banner h1 {
+    font-size: 4vw;
+}
+.apartment-plans button {
+    color: black;
+}
+.navlinks{
+    padding-left: 120px;
+}
+.featured-listing i{
+    font-size: 40px;
+}
+.login{
+    width: 50%;
+}
+@media screen and (max-width: 900px) {
+    .navlinks{
+        padding-left: 0px;
+    }
+    .login{
+        width: 100%;
+    }
+  }
